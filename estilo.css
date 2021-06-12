@@ -1,37 +1,163 @@
-* {padding: 0px;
-  margin: 0px;} 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:wght@700&display=swap');
 
-body { font-family: Arial, Helvetica, sans-serif; 
-  background-color: white;
- /* background-image: url(imagens/FUNDO05.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;*/
+*{padding: 0px; 
+  margin: 0px;  /* Pagina Geral */
+  box-sizing: border-box;} 
 
+
+body { 
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: #181818; }
+
+
+h1,h3,h4 {
+font-family: helvetica,Arial;
+color: black;} 
+
+
+.menu ul {
+  padding: 0;
+  background-color:rgb(32, 32, 32);
+  list-style:none; } /* tirei os traço do menu */
+  
+  
+#portifolio {
+  color: rgb(255, 255, 255);
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16pt;
+  margin-left: 5%;
+  margin-top: 40px;}
+
+.menu ul li { 
+  display: inline; } /* estou dizendo que quero que todos os filho do menu fica horizontal */ 
+  
+.menu ul li a { 
+  display: inline-block; /* para não quebrar */
+  font-size: 14pt; /* estou dizendo que todos os filho do menu que tem o a recebam isso */
+  color: white;
+  padding: 20px; /*tamanho dos item */
+  text-decoration: none;}
+  
+.menu ul li a:hover { 
+  background-color: #a6d44f; 
+  transition: background.9s;}
+
+.menu ul li:last-child a { 
+  float: right;
+  background-color: #5429CF; }
+
+
+#apresentacao {
+  padding: 15%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-family: 'Press Start 2P', cursive;  ;
+  color: white; }
+#apresentacao2{
+  font-family: 'Source Code Pro', monospace;
+  color: #a6d44f;
+  color-interpolation-filters: sRGB;}
+#apresentacao3{
+  text-align: center;
+  font-size: 14pt;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 70px;
+  background-color: #a6d44f;
+  width: 120px;
+  height: 50px;
+  padding-top: 15px;}
+
+
+
+#SobreMim {
+  font-family: 'Source Code Pro', monospace;
+  background-color: #202020;
+  padding: 10%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  color: white; }
+
+#TxtSobreMim {
+  margin-left: 50%;
+  display: inline-block; }
+
+
+#TituloSobreMim {
+  margin-left: 50%;
+  margin-bottom: 5%;
 }
 
-h1,h2,h3,h4,p {
-  font-family: helvetica,Arial;
-  color: #000000;} 
+#Projetos {
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  padding: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;}
+
+#TxtProjetos{
+margin-right: 50%;}
+
+#TituloProjetos {
+  margin-right: 50%;
+  margin-bottom: 5%;}
+
+#Servicos{
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  padding: 5%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  background-color: #202020;}
+
+#TituloServicos{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 50%;}
+
+#TxtServicos {
+  margin-left: 50%;
+}
 
 
 
 
+/*Redes Sociais*/
+.logos {
+width: 80px;
+height: 40px;
+display: flex; /* coloca lado a lado */
+padding-left:2%;} 
 
 
+
+.RODAPE { 
+  position: absolute; /* POSIÇÃO DO RODAPE */	
+  font-size: 15px; 	
+  width: 100%;
+  padding-bottom: 5%; 
+  padding-top: 5%;	
+  color: white; 	
+  text-align: center;
+  background-color: #0D95BE; }
   
-
-#cabeca {
-  height: 500;
-  width: 100;
-}    
-
-
-
-
-
-
 /*************************************************************************************************************/
 /*HOME*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .imagen01{
   display: inline-block;
@@ -95,109 +221,8 @@ a {text-decoration: none; /*tirando a linha dos menu*/}
 
 
 /*********************************************************************************************************/
-/*TODAS_AS_PAGINAS*/
-
-.RODAPE { position: absolute; /* POSIÇÃO DO RODAPE */	
-  font-size: 20px; 	
-  width: 100%;
-  padding-bottom: 9%; 
-  padding-top: 9%;	
-  color: #e0694791; 	
-  text-align: center;
-  background-color: rgb(5, 3, 3); }
-
-.logos {
-  width: 80px;
-  height: 40px;
-  display: flex; /* coloca lado a lado */
-  padding-left: 2%;}
-
-/*MENU*/
-.menu{ list-style:none;
-  border:1px solid #2d00f500; /*BORDA DO MENU TIREI*/
-  float:right; /* fica na direita*/
-  padding-top: 5.5%;}
-  
-.menu li{
-  border-radius: 10px 10px;
-  list-style: none;
-  position:relative; /*Sub_Baixo*/
-  float: left;/*Menu_Esquerda*/
-  border-right:10px solid #000000fb;} /*Cor_Borda_Meio*/
-  
-.menu li a{color:rgb(255, 255, 255); /*Cor_Texto_link*/ 
-  text-decoration:none; /*Sem_Traço*/
-  padding:10px 120px ; /*1°c_2°D_3°B_4°*/ 
-  background-color: #FF5424; /*Cor_Fundo*/
-  display:block;}
-  
-.menu li a:hover{
-  background:#333;
-  color:#fff;
-  -moz-box-shadow:0 3px 10px 0 rgb(0, 0, 0);
-  -webkit-box-shadow:0 3px 10px 0 rgb(0, 0, 0);
-  text-shadow:0px 0px 5px rgb(0, 0, 0);}
-  
-.menu li  ul{
-  position:absolute;
-  top:40px; /*Sub_Baixo*/
-  left:1px; /*Sub_/direita*/
-  right: 550px;
-  background-color:#fff;
-  display:none;}
-  
-.menu li:hover ul, .menu li.over ul{display:block;}
-  
-.menu li ul li{
-  border:1px solid #c0c0c0;
-  display:block;
-  width:150px;}  
-/*************************************************************************************************************/
-/*************************************************************************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Redes Sociais*/
 
 
 /*************************************************************************************************************/
 /*************************************************************************************************************/
-/*QUEM SOU*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

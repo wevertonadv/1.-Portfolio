@@ -1,77 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start Smart</title>
-    <link rel="stylesheet" href="estilo.css">    
+    <link rel="stylesheet" href="estilo.css"> 
+    <script src="script.js"></script>   
 </head>
-
 <body>
-<div class="conteudo"> 
 
-<div class="logos">  <!--LOGOS-->
-
-    <marquee behavior="s" direction=""> Redes Sociais </marquee>
-    <a href="https://www.youtube.com/channel/UCFO79zLOq3bTRhWuFEyon3Q" target="_blank"> 
-    <div  class="logos" ><img src="imagens/LOGOyoutube.png" alt="" ></div></a>
-
-    <a href="https://www.instagram.com/_wevertonrj/" target="_blank">
-    <div  class="logos" ><img src="imagens/LOGOinstagram.png" alt="" ></div></a>
-
-    <a href="https://github.com/wevertonadv" target="_blank">
-    <div  class="logos" ><img src="imagens/LOGOgithub.png" alt=""></div></a>
-
-    <a href="https://www.linkedin.com/in/weverton-melo-34a277207/" target="_blank"> 
-    <div class="logos"> <img src="imagens/LOGOlinkedin.png" alt="linkedin"></div ></a>
-
-</div>  
-
-<div> <!--LOGO_MUSICA--> 
-<img src="imagens/LOGO.png" alt="LOGO" id="logo" >
-<!--<embed src="musica/musicasite.mp3" autostart="true" loop="true"-->
-</div>
-
-<div class="menu"> <!--MENU-->
-<nav> 
+<nav class="menu"> 
     <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="portfolio.html">Portfólio</a>
-        <ul>
-            <li><a href="sites.html"> Sites</a></li>
-            <li><a href="programas.html">Programas</a></li>
-        </ul></li>            
-        <li><a href="QuemSou.html">QuemSou</a></li>
+        <li id="portifolio"> Portfólio </li>
+
+        <li><a href="index.html">Inicio  </a></li>
+        <li><a href="#SobreMim">Sobre Mim</a></li>
+        <li><a href="#Projetos">Projetos </a></li>
+        <li><a href="#Servicos">Serviços </a></li>
+        <li><a href="#Entrar">Entrar     </a></li>
     </ul>
 </nav>
-</div>  
+
+<div id="apresentacao"> 
+    <p id="apresentacao2"> Olá, eu sou </p><br>
+    <p> Weverton Mello . . .</p><br> 
+    <p id="apresentacao2"> Desenvolvedor Fron-End e Programador.</p> 
+    <p id="apresentacao3"> <a href="https://github.com/wevertonadv" target="_blank"> GitHub </a></p>
+</div>
+
+<div id="SobreMim">
     
-<div class="aligncenter"> <!--FOTO_INICIO-->
-    <header>
-        <img src="imagens/header.jpg" alt="header" id="cabeca" height="500" width="1280" >
-    </header>
-</div>
+    <h2 id="TituloSobreMim"> Sobre Mim</h2>
 
-<div><!--CONTEUDO-->
-    <h2> Youtube</h2>
-    <p  align="center" >Vídeo de Introdução</p> <br>       
-<div id="video"><!--VIDEO-->
-    <p align=center><iframe width="560" height="315" src="https://www.youtube.com/embed/FZpyD0-ofCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe align=center></p> 
+    <p id="TxtSobreMim">Olá, me chamo Weverton, tenho 20 anos de idade sou do Rio de Janeiro, Caxias. Curso análise e desenvolvimento de sistema na universade unigranrio, estou no quarto período, sou um jovem extemamente apaixonado por tecnologia e aprendizado constante..</p> <br> <br>
 
-    <div class="imagen01">    
-    <img src="imagens/Quarto Gamer.jpg" alt="Quarto Gamer" width="600" height="350"></div>
-
-    <div class="imagen01"><img src="imagens/Campeonato de vídeo game.jpg" alt=" Campeonato de video game"  width="600" height="350"></div>
+    <p id="TxtSobreMim">Tenho facilidade em assimilar tarefas e disposto a vivenciar novos desafios e experiências, em busca de uma oportunidade em que eu possa contribuir para o crescimento da empresa e para o meu desenvolvimento pessoal e profissional.</p>
 
 
 </div>
 
-</div>
+<div id="Projetos">
+    <h2 id="TituloProjetos">Projetos</h2> <br>
+
+    <p id="TxtProjetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut esse vitae, dignissimos possimus suscipit totam illo, placeat molestiae sequi enim dolorem voluptatibus, autem consectetur atque qui saepe nostrum. Velit, tempore.<a href="#projeto01">Projeto 01</a></p> <br>
+
+    <p id="TxtProjetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut esse vitae, dignissimos possimus suscipit totam illo, placeat molestiae sequi enim dolorem voluptatibus, autem consectetur atque qui saepe nostrum. Velit, tempore. <a href="#projeto02">Projeto 02</a></p> <br>
+
+    <p id="TxtProjetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut esse vitae, dignissimos possimus suscipit totam illo, placeat molestiae sequi enim dolorem voluptatibus, autem consectetur atque qui saepe nostrum. Velit, tempore. <a href="#projeto03">Projeto 03</a> </p> <br>
 
 </div>
+
+<div id="Servicos">
+    <h2 id="TituloServicos"> Serviços </h2> <br>
+
+    <p id="TxtServicos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti modi minima eum eius accusamus est omnis consequuntur doloremque fugit quia id cupiditate quos, ducimus rem blanditiis, quasi nesciunt optio. Aliquam.</p> <br>
+
+    <p id="TxtServicos" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad eaque, culpa quisquam laborum reiciendis perspiciatis. Natus, modi! Maiores quia deleniti eveniet dicta. Hic magni minima mollitia quidem itaque fugiat harum?</p> <br>
+
+</div>
+
+
+    
+
+
+
 <footer class="RODAPE"><!-- RODAPÉ-->
     <address align='center'>WEVERTON DE MELLO MACHADO <br>
-    Todos os direitos reservados &copy;2020  </address> 
+    Todos os direitos reservados &copy;2020 💙 </address> 
 </footer> 
 </body>
 </html>
