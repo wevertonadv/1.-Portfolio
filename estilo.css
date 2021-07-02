@@ -96,14 +96,48 @@ color: black;}
   margin-top: 2%;
   margin-bottom: 2%;}
 
-#TxtProjetos{
-margin-right: 50%;}
 
 #TituloProjetos {
   margin-right: 50%;
   margin-bottom: 5%;}
 
-#Servicos{
+#warc19  {
+  height: 300px;
+  width: 450px;
+  background-color: #202020;}
+#warc19_0{
+  margin-left: 7%;
+  padding-top:  7%;
+  font-size: 20pt;}
+#warc19_1{
+  margin-left: 4%;
+  padding-top:  4%;
+  margin: 5%;
+  font-size: 12pt;}
+#warc19_2{
+    margin-left: 4%;
+    padding-top:  4%;
+    margin: 5%;
+    font-size: 12pt;}
+.warc19_3{
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 70%;
+  font-size: 14pt;
+  display: inline-block;
+  border-radius: 10px;}
+.warc19_3-roxo{
+  background: #5429CF;
+  box-shadow: 0 1px 0 #350ea0 ;}
+.warc19_3-roxo:hover{
+  background: #a6d44f;
+  color: black;
+  box-shadow: 0 3px 0 #350ea0 ;}
+
+
+  #Servicos{
   font-family: 'Source Code Pro', monospace;
   color: white;
   padding: 5%;
