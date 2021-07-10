@@ -9,24 +9,17 @@
     <script src="script.js"></script>   
 </head>
 <body>
+<input type="checkbox" id="bt_menu">
+<label for="bt_menu"> &#9776; </label>
 
 <nav class="menu"> 
     <ul>
-        <div class="mobile-menu">
-            <ul>
-                <div class="line1">    </div>
-                <div class="line2">    </div>
-                <div class="line3">    </div>
-            </ul>
-        </div>
-
         <li id="portifolio"> Portfólio </li>
-
         <li><a href="index.html">Inicio   </a></li>
         <li><a href="#SobreMim" >Sobre Mim</a></li>
-        <li><a href="#Projetos" >Projetos </a></li>
+        <li><a href="#Projetos" >Projetos </a> </li>
         <li><a href="#Servicos" >Serviços </a></li>
-        <li><a href="#Entrar"   >Entrar   </a></li>
+        <li><a href="entrar.html">Entrar   </a></li>
     </ul>
 </nav>
 
@@ -43,7 +36,7 @@
 
     <div class="container"> 
 
-    <img src="imagens/euaqui.png" alt="Personagem de TI">
+    <img class="ieuaqui" src="imagens/euaqui.png" alt="Personagem de TI">
 
     <p id="TxtSobreMim">Olá, me chamo Weverton, tenho 20 anos de idade sou do Rio de Janeiro, Duque de Caxias. Curso análise e desenvolvimento de sistema na universade unigranrio, estou no quarto período, sou um jovem extremamente apaixonado por tecnologia e aprendizado constante.. <br><br>
 
@@ -60,8 +53,6 @@
 
 <div id="Projetos">
     <h2 id="TituloProjetos">Projetos</h2> <br>
-
-    
     <div id="warc19">
         <h3 id="warc19_0">Jogo em Python!(War C-19)</h3> 
         <p id="warc19_1"> Um jogo no formato 2d relacionado a covid-19, a proposta do jogo é salvar o máximo de pessoas possiveis. </p>
@@ -76,11 +67,7 @@
 
         <button class="warc19_3 warc19_3-roxo"> <a target="_blank" href="https://www.cwconstrucoes.com/"> Acesse 
         </a></button>
-
-
     </div>
-    
-
 </div>
 
 <div id="Servicos">
@@ -101,14 +88,28 @@
 
 </div>
 
+<div class="cursos">
+    <h2 class="TituloCursos"  >Cursos</h2>
+    <div class="curso01">
+        <h3 class="TituloCurso1">Desenvolvedor Android Iniciante (udemy)</h3> <br>
+        <p class="TxtCurso1">Aprenda conceitos fundamentais do Android para 
+        criar aplicativos  e tirar suas idéias do papel!</p>
+            <p class="progresso">Progresso</p>
+            <div class="barra0" ><p >.</p></div>
+            <div class="barra1" ><p >..........</p></div>
+    <button class="curso_1 curso_1-roxo"> <a target="_blank" href="https://www.udemy.com/course/desenvolvedor-android-iniciante/learn/lecture/6423292?start=120#overview"> Acesse 
+    </a></button>
+    </div>
 
+</div>
+
+
+
+<footer class="RODAPE">
     
-
-
-
-<footer class="RODAPE"><!-- RODAPÉ-->
-    <address align='center'>WEVERTON DE MELLO MACHADO <br>
-    Todos os direitos reservados &copy;2020 💙 </address> 
+    <address align='center'>WEVERTON DE MELLO MACHADO <br>  <!-- RODAPÉ-->
+    Todos os direitos reservados &copy;2021 💙 </address> 
 </footer> 
+
 </body>
 </html>

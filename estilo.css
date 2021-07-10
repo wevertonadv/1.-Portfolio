@@ -10,6 +10,23 @@ a {
   color: white;
   text-decoration: none; }
 
+label[for="bt_menu"]{
+  padding: 5px;
+  background-color: #5429CF;  
+  color: #Fff;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px; }
+  
+#bt_menu{
+  display: none; }
+
+label[for="bt_menu"]{
+
+  display: none; }
+
 body { 
   font-family: Arial, Helvetica, sans-serif; 
   background-color: #181818; }
@@ -181,6 +198,60 @@ color: black;}
   margin-left: 50%;}
 #imgservicos{
   width: 500px;}
+/*_CURSO___________________________________________________________________________________________________________*/
+.cursos{
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  padding: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;}
+.TituloCursos{
+  margin-right: 50%;
+  margin-bottom: 5%;}
+.TituloCursos:hover{
+  color: #a6d44f;
+;}
+.curso01{
+  height: 300px;
+  width: 450px;
+  background-color: #202020;
+  display: inline-block;}
+.TituloCurso1{
+  margin-left: 7%;
+  padding-top:  5%;
+  font-size: 20pt;}
+.TxtCurso1{
+  margin-left: 4%;
+  padding-top:  2%;
+  margin: 5%;
+  font-size: 12pt;}
+.barra0 {
+  color:rgb(0, 255, 55);
+  background-color: rgb(0, 255, 55);
+  width: 2%;
+  display: inline-block;}
+.barra1{
+  color: firebrick;
+  background-color: firebrick;
+  width: 22%;
+  display: flex;}
+.curso_1{
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 70%;
+  font-size: 14pt;
+  display: inline-block;
+  border-radius: 10px;}
+.curso_1-roxo{
+  background: #5429CF;
+  box-shadow: 0 1px 0 #350ea0 ;}
+.curso_1-roxo:hover {
+  background: #a6d44f;
+  color: black;
+  box-shadow: 0 3px 0 #350ea0 ;}
+  
 
 .RODAPE { 
   position: absolute; /* POSIÇÃO DO RODAPE */	
@@ -190,28 +261,32 @@ color: black;}
   padding-top: 5%;	
   color: white; 	
   text-align: center;
+  size: cover;
   background-color: #0D95BE; }
   
-.mobile-menu{
-  cursor: pointer;
+
+
+@media(max-width: 800px) {
+nav {
+  width: 0%; }
+.menu ul li {
+  display: none; }
+.container {
+ width: 100%;  }
+.ieuaqui{
+  display: none;}
+.TxtSobreMim {
+  width: 100%;}
+#projetos{
+  display: inline-block;}
+.construcao{
+  margin-top: 2%;
+  margin-bottom: 2%;}
+#imgservicos{
   display: none;
 }
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: #fff;
-  margin: 2px;
-}
-@media screen and (max-width: 700px) {}
 
-/*toda tela que for menor que 600px vai acontecer isso*/
-@media screen and (max-width: 600px) {
 
-#imgservicos{ width: 0%;; }
-
-nav{width:70%;
 
 }
-body{ background-color: #FFF;}
 
-}
