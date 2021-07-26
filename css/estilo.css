@@ -67,7 +67,7 @@ color: black;}
   padding: 15%;
   margin-top: 1%;
   margin-bottom: 1%;
-  font-family: 'Press Start 2P', cursive;  ;
+  font-family: 'Press Start 2P', cursive;  
   color: white; }
 #apresentacao2{
   font-family: 'Source Code Pro', monospace;
@@ -85,11 +85,14 @@ color: black;}
   height: 50px;
   padding-top: 15px;}
 #apresentacao3:hover{
+  transition: background 1s;
   background-color: #a6d44f;}
 
 #TituloSobreMim {
-  margin-left: 45%;
+  margin-left: 40%;
   margin-bottom: 2%;}
+#TituloSobreMim:hover{
+  color: #a6d44f;}
 #SobreMim {
   font-family: 'Source Code Pro', monospace;
   background-color: #202020;
@@ -98,12 +101,10 @@ color: black;}
   margin-bottom: 2%;
   color: white;
   display: inline-block }
-
 #TxtSobreMim {
   margin-top: 3%;
   margin-left: 10%;
   margin-right: 10%;}
-
 .container{
   display: flex;}
 
@@ -116,7 +117,8 @@ color: black;}
 #TituloProjetos {
   margin-right: 50%;
   margin-bottom: 5%;}
-
+#TituloProjetos:hover{
+  color: #a6d44f;}
 #warc19  {
   height: 300px;
   width: 450px;
@@ -147,6 +149,7 @@ color: black;}
   border-radius: 10px;}
 .warc19_3-roxo{
   background: #5429CF;
+  transition: background 1s;
   box-shadow: 0 1px 0 #350ea0 ;}
 .warc19_3-roxo:hover {
   background: #a6d44f;
@@ -194,11 +197,13 @@ color: black;}
   margin-top: 2%;
   margin-bottom: 2%;
   margin-left: 52%;}
-#TxtServicos {
+#TituloServicos:hover{
+  color:#a6d44f;}
+  #TxtServicos {
   margin-left: 50%;}
 #imgservicos{
   width: 500px;}
-/*_CURSO___________________________________________________________________________________________________________*/
+/*CURSO*/
 .cursos{
   font-family: 'Source Code Pro', monospace;
   color: white;
@@ -206,13 +211,12 @@ color: black;}
   margin-top: 2%;
   margin-bottom: 2%;}
 .TituloCursos{
-  margin-right: 50%;
+  margin-right: 45%;
   margin-bottom: 5%;}
 .TituloCursos:hover{
-  color: #a6d44f;
-;}
+  color: #a6d44f;}
 .curso01{
-  height: 300px;
+  height: 350px;
   width: 450px;
   background-color: #202020;
   display: inline-block;}
@@ -222,15 +226,18 @@ color: black;}
   font-size: 20pt;}
 .TxtCurso1{
   margin-left: 4%;
-  padding-top:  2%;
   margin: 5%;
   font-size: 12pt;}
+.progresso{
+  margin-left: 4%;}
 .barra0 {
+  margin-left: 4%;
   color:rgb(0, 255, 55);
   background-color: rgb(0, 255, 55);
-  width: 2%;
+  width: 7%;
   display: inline-block;}
 .barra1{
+  margin-left: 4%;
   color: firebrick;
   background-color: firebrick;
   width: 22%;
@@ -246,19 +253,21 @@ color: black;}
   border-radius: 10px;}
 .curso_1-roxo{
   background: #5429CF;
+  transition: background 1s;
   box-shadow: 0 1px 0 #350ea0 ;}
 .curso_1-roxo:hover {
   background: #a6d44f;
   color: black;
   box-shadow: 0 3px 0 #350ea0 ;}
-  
+
+
 
 .RODAPE { 
   position: absolute; /* POSIÇÃO DO RODAPE */	
   font-size: 15px; 	
   width: 100%;
   padding-bottom: 5%; 
-  padding-top: 5%;	
+ padding-top: 5%;	
   color: white; 	
   text-align: center;
   size: cover;
@@ -283,10 +292,40 @@ nav {
   margin-top: 2%;
   margin-bottom: 2%;}
 #imgservicos{
-  display: none;
+  display: none;}
+#Servicos{
+  size: cover;
+  width: cover;}
+}
+@media(max-width:360px){
+div#SobreMim{
+  display: inline-block;
+  padding-right: cover;
+  margin-right: cover;
+  color: #0D95BE;
+  size: cover;
+  display: inline-block;}
+#TxtSobreMim{
+  width: 50%;}
+#TituloSobreMim{
+  color:pink;
+  margin-top:10%;
+}
+  .container{
+
+  width: 100%;}
 }
 
+@media(max-width:568px) { /*1° TELA*/
+#TituloSobreMim{
+  margin-left: 10%;}
+#TituloProjetos{
+  margin-left: 10%;}
 
+#TituloServicos{
+  margin-left: 10%;}
+
+.TituloCursos{
+  margin-left: 10%;}
 
 }
-
