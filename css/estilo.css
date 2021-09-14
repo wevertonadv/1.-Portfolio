@@ -120,8 +120,8 @@ color: black;}
 #TituloProjetos:hover{
   color: #a6d44f;}
 #warc19  {
-  height: 300px;
-  width: 450px;
+  height: 330px;
+  width: 385px;
   background-color: #202020;
   display: inline-block;}
 #warc19_0{
@@ -157,8 +157,8 @@ color: black;}
   box-shadow: 0 3px 0 #350ea0 ;}
 
 .construcao{
-  height: 300px;
-  width: 450px;
+  height: 330px;
+  width: 370px;
   background-color: #202020;
   display: inline-block;}
 .construcao_0{
@@ -199,10 +199,11 @@ color: black;}
   margin-left: 52%;}
 #TituloServicos:hover{
   color:#a6d44f;}
-  #TxtServicos {
+#TxtServicos {
   margin-left: 50%;}
 #imgservicos{
   width: 500px;}
+
 /*CURSO*/
 .cursos{
   font-family: 'Source Code Pro', monospace;
@@ -212,14 +213,46 @@ color: black;}
   margin-bottom: 2%;}
 .TituloCursos{
   margin-right: 45%;
-  margin-bottom: 5%;}
+  margin-bottom: 1%;}
 .TituloCursos:hover{
   color: #a6d44f;}
 .curso01{
-  height: 350px;
-  width: 450px;
+  height: 320px;
+  width: 385px;
   background-color: #202020;
+  margin-top: 1%;
   display: inline-block;}
+.curso02{
+  height: 320px;
+  width: 385px;
+  background-color: #202020;
+  margin-top: 1%;
+  display: inline-block;}
+.curso03{
+  height: 320px;
+  width: 385px;
+  background-color: #202020;
+  margin-top: 1%;
+  display: inline-block;}
+.curso04{
+height: 320px;
+width: 385px;
+background-color: #202020;
+margin-top: 1%;
+display: inline-block;}
+.curso05{
+height: 320px;
+width: 385px;
+background-color: #202020;
+margin-top: 1%;
+display: inline-block;}
+.curso06{
+height: 320px;
+width: 385px;
+background-color: #202020;
+margin-top: 1%;
+display: inline-block;}
+
 .TituloCurso1{
   margin-left: 7%;
   padding-top:  5%;
@@ -228,20 +261,59 @@ color: black;}
   margin-left: 4%;
   margin: 5%;
   font-size: 12pt;}
+.TxtCurso2{
+  margin-left: 4%;
+  margin: 5%;
+  font-size: 12pt;}
 .progresso{
   margin-left: 4%;}
-.barra0 {
+.barra01 {
   margin-left: 4%;
-  color:rgb(0, 255, 55);
-  background-color: rgb(0, 255, 55);
-  width: 7%;
+  color:#a6d44f;
+  background-color: #a6d44f;
+  width: 25%;
   display: inline-block;}
 .barra1{
+margin-left: 4%;
+color: #5429CF;
+background-color: #5429CF;
+width: 25%;
+display: flex;}
+.barra02 {
+margin-left: 4%;
+color:#a6d44f;
+background-color: #a6d44f;
+width: 12%;
+display: inline-block;}
+.barra03 {
+margin-left: 4%;
+color:#a6d44f;
+background-color: #a6d44f;
+width: 10%;
+display: inline-block;}
+.barra04 {
   margin-left: 4%;
-  color: firebrick;
-  background-color: firebrick;
-  width: 22%;
-  display: flex;}
+  color:#a6d44f;
+  background-color: #a6d44f;
+  width: 10%;
+  display: inline-block;}
+.barra05 {
+margin-left: 4%;
+color:#a6d44f;
+background-color: #a6d44f;
+width: 8%;
+display: inline-block;}
+.barra06 {
+  margin-left: 4%;
+  color:#a6d44f;
+  background-color: #a6d44f;
+  width: 10%;
+  display: inline-block;}
+              
+
+
+
+
 .curso_1{
   color: white;
   border: none;
@@ -259,7 +331,7 @@ color: black;}
   background: #a6d44f;
   color: black;
   box-shadow: 0 3px 0 #350ea0 ;}
-
+/*CURSOS*/
 
 
 .RODAPE { 
