@@ -338,6 +338,12 @@ display: inline-block;}
   margin-top: 2%;
   padding: 10px;
   border-radius:100px}
+#back-to-top{
+  position:fixed;
+  right: 50px;
+  bottom:50px;
+  background-color: #0D95BE;
+}
 /*CURSOS*/
 
 
