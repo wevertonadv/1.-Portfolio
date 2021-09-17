@@ -332,17 +332,22 @@ display: inline-block;}
   color: black;
   box-shadow: 0 3px 0 #350ea0 ;}
 .vermais{
-  background: #ff0000;
+  background: #302f2f;
+  color:#fff;
   font-size: 10pt;
   margin-left: 88%;
   margin-top: 2%;
   padding: 10px;
+  border: none;
   border-radius:100px}
 #back-to-top{
   position:fixed;
   right: 50px;
   bottom:50px;
-  background-color: #0D95BE;
+  padding: 5px;
+  border: none;
+  border-radius:1px;
+  background-color: #202020;
 }
 /*CURSOS*/
 
