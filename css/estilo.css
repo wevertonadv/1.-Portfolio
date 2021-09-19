@@ -349,8 +349,10 @@ display: inline-block;}
   border-radius:1px;
   background-color: #202020;
 }
-/*CURSOS*/
-
+/*ENTRAR*/
+.conteudo{
+  background-color: #fff;
+  padding:50px;}
 
 .RODAPE { 
   position: absolute; /* POSIÇÃO DO RODAPE */	
