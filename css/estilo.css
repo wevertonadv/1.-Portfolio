@@ -106,8 +106,9 @@ color: black;}
   margin-left: 10%;
   margin-right: 10%;}
 .container{
-  display: flex;}
 
+  display: flex;}
+/* Aba de projetos */
 #Projetos {
   font-family: 'Source Code Pro', monospace;
   color: white;
@@ -119,9 +120,11 @@ color: black;}
   margin-bottom: 5%;}
 #TituloProjetos:hover{
   color: #a6d44f;}
+
+/*Caixa*/
 #warc19  {
   height: 330px;
-  width: 385px;
+  width: 370px;
   background-color: #202020;
   display: inline-block;}
 #warc19_0{
@@ -155,8 +158,8 @@ color: black;}
   background: #a6d44f;
   color: black;
   box-shadow: 0 3px 0 #350ea0 ;}
-
-.construcao{
+/*Caixa*/
+.construcao{ 
   height: 330px;
   width: 370px;
   background-color: #202020;
@@ -175,18 +178,29 @@ color: black;}
   padding-top: 4%;
   margin: 5%;
   font-size: 12pt;}
-.construcao_3{
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  margin-left: 70%;
-  font-size: 14pt;
-  display: inline-block;
-  border-radius: 10px;}
+/*Caixa*/
+.mobile{ 
+  height: 330px;
+  width: 370px;
+  background-color: #202020;
+  display: inline-block;}
+.mobile_0{
+  margin-left: 7%;
+  padding-top:  7%;
+  font-size: 20pt;}
+.mobile_1{
+  margin-left: 4%;
+  padding-top:  4%;
+  margin: 5%;
+  font-size: 12pt;}
+.mobile_2{
+  margin-left: 4%;
+  padding-top: 4%;
+  margin: 5%;
+  font-size: 12pt;}
 
 
-#Servicos{
+  #Servicos{
   font-family: 'Source Code Pro', monospace;
   color: white;
   padding: 5%;
