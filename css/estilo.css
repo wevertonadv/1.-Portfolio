@@ -380,7 +380,6 @@ display: inline-block;}
   background-color: #0D95BE; }
   
 
-
 @media(max-width: 800px) {
 nav {
   width: 0%; }
@@ -421,6 +420,7 @@ div#SobreMim{
 
   width: 100%;}
 }
+
 
 @media(max-width:568px) { /*1° TELA*/
 #TituloSobreMim{
