@@ -122,14 +122,16 @@ color: black;}
 
 /*Caixa*/
 #warc19  {
-  height: 330px;
-  width: 370px;
+  height: 200px;
+  border: solid #5429CF;
+  border-top: 1px solid rgb(3, 192, 250);
+  width: 395px;
   background-color: #202020;
   display: inline-block;}
 #warc19_0{
-  margin-left: 7%;
-  padding-top:  7%;
-  font-size: 20pt;}
+  margin-left: 2%;
+  padding-top:  2%;
+  font-size: 15pt;}
 #warc19_1{
   margin-left: 4%;
   padding-top:  4%;
@@ -137,7 +139,7 @@ color: black;}
   font-size: 12pt;}
 #warc19_2{
     margin-left: 4%;
-    padding-top:  4%;
+    padding-top:  0%;
     margin: 5%;
     font-size: 12pt;}
 .warc19_3{
@@ -158,35 +160,43 @@ color: black;}
   color: black;
   box-shadow: 0 3px 0 #350ea0 ;}
 /*Caixa*/
+
 .construcao{ 
-  height: 330px;
-  width: 370px;
+  height: 200px;
+  border: solid #5429CF;
+  border-top: 1px solid rgb(3, 192, 250);
+  width: 395px;
+  width: 395px;
   background-color: #202020;
   display: inline-block;}
 .construcao_0{
-  margin-left: 7%;
-  padding-top:  2.7%;
-  font-size: 20pt;}
+  margin-left: 2%;
+  padding-top:  2%;
+  font-size: 15pt;}
 .construcao_1{
   margin-left: 4%;
   padding-top:  4%;
   margin: 5%;
   font-size: 12pt;}
 .construcao_2{
+  float:none;
   margin-left: 4%;
-  padding-top: 4%;
+  padding-top: 0%;
   margin: 5%;
   font-size: 12pt;}
 /*Caixa*/
 .mobile{ 
-  height: 330px;
-  width: 370px;
+  height: 200px;
+  width: 395px;
+  border: solid #5429CF;
+  border-top: 1px solid rgb(3, 192, 250);
+  width: 395px;
   background-color: #202020;
   display: inline-block;}
 .mobile_0{
-  margin-left: 7%;
-  padding-top:  7%;
-  font-size: 20pt;}
+  margin-left: 2%;
+  padding-top:  2%;
+  font-size: 15pt;}
 .mobile_1{
   margin-left: 4%;
   padding-top:  4%;
@@ -194,7 +204,7 @@ color: black;}
   font-size: 12pt;}
 .mobile_2{
   margin-left: 4%;
-  padding-top: 4%;
+  padding-top: 0%;
   margin: 5%;
   font-size: 12pt;}
 
