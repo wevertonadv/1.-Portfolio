@@ -215,6 +215,10 @@ color: black;}
 #imgservicos{
   width: 500px;}
 
+
+
+
+
 /*CURSO*/
 .cursos{
   font-family: 'Source Code Pro', monospace;
@@ -283,47 +287,50 @@ display: inline-block;}
   color:#a6d44f;
   background-color: #a6d44f;
   width: 25%;
+  height: 2%;
   display: inline-block;}
 .barra1{
 margin-left: 4%;
 color: #5429CF;
 background-color: #5429CF;
 width: 25%;
+height: 2%;
 display: flex;}
 .barra02 {
 margin-left: 4%;
 color:#a6d44f;
 background-color: #a6d44f;
 width: 12%;
+height:2%;
 display: inline-block;}
 .barra03 {
 margin-left: 4%;
 color:#a6d44f;
 background-color: #a6d44f;
-width: 10%;
+width: 15%;
+height:2%;
 display: inline-block;}
 .barra04 {
   margin-left: 4%;
   color:#a6d44f;
   background-color: #a6d44f;
-  width: 10%;
+  width: 12%;
+  height:2%;
   display: inline-block;}
 .barra05 {
 margin-left: 4%;
 color:#a6d44f;
 background-color: #a6d44f;
-width: 8%;
+width:20%;
+height:2%;
 display: inline-block;}
 .barra06 {
   margin-left: 4%;
   color:#a6d44f;
   background-color: #a6d44f;
   width: 10%;
+  height:2%;
   display: inline-block;}
-              
-
-
-
 
 .curso_1{
   color: white;
@@ -358,8 +365,12 @@ display: inline-block;}
   padding: 5px;
   border: none;
   border-radius:1px;
-  background-color: #202020;
-}
+  background-color: #202020;}
+
+
+
+
+
 /*ENTRAR*/
 .conteudo{
   background-color: #fff;
@@ -376,6 +387,10 @@ display: inline-block;}
   size: cover;
   background-color: #0D95BE; }
   
+
+@media(max-width: 1600px){
+  
+}
 
 @media(max-width: 800px) {
 nav {
@@ -397,9 +412,10 @@ nav {
   display: none;}
 #Servicos{
   size: cover;
-  width: cover;}
-}
-@media(max-width:360px){
+  width: cover;}}
+
+ 
+  @media(max-width:360px){
 div#SobreMim{
   display: inline-block;
   padding-right: cover;
@@ -424,11 +440,7 @@ div#SobreMim{
   margin-left: 10%;}
 #TituloProjetos{
   margin-left: 10%;}
-
 #TituloServicos{
   margin-left: 10%;}
-
 .TituloCursos{
-  margin-left: 10%;}
-
-}
+  margin-left: 10%;}}
