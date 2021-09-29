@@ -1,14 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:wght@700&display=swap');
 
+
+
+
 *{
   padding: 0px; 
   margin: 0px;  /* Pagina Geral */
   box-sizing: border-box;} 
 
+
+
+marquee{ color: #fff;
+  font-size: 52pt}
+
+
+
 a {
   color: white;
   text-decoration: none; }
+
+
+
+.menu ul {
+    padding: 0;
+    background-color:rgb(32, 32, 32);
+    list-style:none; } /* tirei os traço do menu */
+#portifolio {
+    color: rgb(255, 255, 255);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16pt;
+    margin-left: 5%;
+    margin-top: 40px;}
+.menu ul li { 
+    display: inline; } /* estou dizendo que quero que todos os filho do menu fica horizontal */  
+.menu ul li a { 
+    display: inline-block; /* para não quebrar */
+    font-size: 14pt; /* estou dizendo que todos os filho do menu que tem o a recebam isso */
+    color: white;
+    padding: 20px; /*tamanho dos item */
+    text-decoration: none;}
+.menu ul li a:hover { 
+    background-color: #a6d44f; 
+    transition: background.9s;}
+.menu ul li:last-child a { 
+    float: right;
+    background-color: #5429CF; }
+
+
 
 
 body { 
@@ -22,30 +61,7 @@ h1,h4 {
 font-family: helvetica,Arial;
 color: black;} 
 
-.menu ul {
-  padding: 0;
-  background-color:rgb(32, 32, 32);
-  list-style:none; } /* tirei os traço do menu */
-#portifolio {
-  color: rgb(255, 255, 255);
-  font-family: 'Source Code Pro', monospace;
-  font-size: 16pt;
-  margin-left: 5%;
-  margin-top: 40px;}
-.menu ul li { 
-  display: inline; } /* estou dizendo que quero que todos os filho do menu fica horizontal */  
-.menu ul li a { 
-  display: inline-block; /* para não quebrar */
-  font-size: 14pt; /* estou dizendo que todos os filho do menu que tem o a recebam isso */
-  color: white;
-  padding: 20px; /*tamanho dos item */
-  text-decoration: none;}
-.menu ul li a:hover { 
-  background-color: #a6d44f; 
-  transition: background.9s;}
-.menu ul li:last-child a { 
-  float: right;
-  background-color: #5429CF; }
+
 
 #apresentacao {
   padding: 15%;
@@ -393,10 +409,6 @@ display: inline-block;}
 }
 
 @media(max-width: 800px) {
-nav {
-  width: 0%; }
-.menu ul li {
-  display: none; }
 .container {
  width: 100%;  }
 .ieuaqui{
