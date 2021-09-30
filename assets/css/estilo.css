@@ -49,14 +49,14 @@ a {
 
 
 
-
 body { 
   font-family: Arial, Helvetica, sans-serif; 
   background-color: #181818; }
 
-h3 {
-  color: #Fff;}
+ 
   
+h3 {
+  color: #Fff;}  
 h1,h4 {
 font-family: helvetica,Arial;
 color: black;} 
@@ -88,6 +88,8 @@ color: black;}
   transition: background 1s;
   background-color: #a6d44f;}
 
+
+
 #TituloSobreMim {
   margin-left: 40%;
   margin-bottom: 2%;}
@@ -108,7 +110,10 @@ color: black;}
   margin-right: 10%;}
 .container{
   display: flex;}
-/* Aba de projetos */
+
+
+
+  /* Aba de projetos */
 #Projetos {
   font-family: 'Source Code Pro', monospace;
   color: white;
@@ -161,7 +166,6 @@ color: black;}
   background: #a6d44f;
   color: black;
   box-shadow: 0 3px 0 #350ea0 ;}
-/*Caixa*/
 
 .construcao{ 
   height: 200px;
@@ -186,8 +190,8 @@ color: black;}
   padding-top: 0%;
   margin: 5%;
   font-size: 12pt;}
-/*Caixa*/
-.mobile{ 
+
+  .mobile{ 
   height: 200px;
   width: 395px;
   border: solid #5429CF;
@@ -211,6 +215,7 @@ color: black;}
   font-size: 12pt;}
 
 
+
 #Servicos{
   font-family: 'Source Code Pro', monospace;
   color: white;
@@ -230,8 +235,6 @@ color: black;}
   margin-left: 50%;}
 #imgservicos{
   width: 500px;}
-
-
 
 
 
