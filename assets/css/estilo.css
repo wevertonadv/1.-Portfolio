@@ -407,7 +407,10 @@ display: inline-block;}
   background-color: #0D95BE; }
   
 
-@media(max-width: 1600px){
+@media(max-width: 1440px){
+  .projetos_aliamento{
+    align-items: center;
+  }
   
 }
 
@@ -429,7 +432,23 @@ display: inline-block;}
   size: cover;
   width: cover;}}
 
- 
+@media (max-width:1024px){
+#TituloSobreMim{
+  margin-left: 52.2%;}
+
+.ieuaqui{
+  display:none;
+}
+
+#TituloServicos{
+  margin-left: 50%}
+
+#imgservicos{
+  display: none;}
+
+}
+
+
   @media(max-width:360px){
 div#SobreMim{
   display: inline-block;
