@@ -3,8 +3,8 @@
 
 
 *{
-padding: 0px; 
-margin: 0px; } 
+padding: 0; 
+margin: 0; } 
 
 body { 
   width: 100%;
@@ -177,7 +177,7 @@ color: black;}
 
 
 #TituloSobreMim {
-  margin-left: 40%;
+  margin-left: 43%;
   margin-bottom: 2%;}
 #TituloSobreMim:hover{
   color: #a6d44f;}
@@ -208,6 +208,7 @@ color: black;}
   margin-top: 2%;
   margin-bottom: 2%;}
 #TituloProjetos {
+  color: black;
   margin-right: 50%;
   margin-bottom: 5%;}
 #TituloProjetos:hover{
@@ -215,7 +216,7 @@ color: black;}
 
 /*Caixa*/
 #warc19  {
-  height: 200px;
+  height: 220px;
   border: solid #5429CF;
   border-top: 1px solid rgb(3, 192, 250);
   width: 395px;
@@ -231,30 +232,32 @@ color: black;}
   margin: 5%;
   font-size: 12pt;}
 #warc19_2{
-    margin-left: 4%;
+    display: inline-block;
+    margin-left: 0%;
     padding-top:  0%;
     margin: 5%;
     font-size: 12pt;}
 .warc19_3{
+  display: inline-block;
   color: white;
   border: none;
   padding: 10px;
   cursor: pointer;
-  margin-left: 70%;
   font-size: 14pt;
-  display: inline-block;
   border-radius: 10px;}
 .warc19_3-roxo{
+  display: inline-block;
   background: #5429CF;
   transition: background 1s;
   box-shadow: 0 1px 0 #350ea0 ;}
 .warc19_3-roxo:hover {
+  display:inline-block;
   background: #a6d44f;
   color: black;
   box-shadow: 0 3px 0 #350ea0 ;}
 
 .construcao{ 
-  height: 200px;
+  height: 220px;
   border: solid #5429CF;
   border-top: 1px solid rgb(3, 192, 250);
   width: 395px;
@@ -278,7 +281,7 @@ color: black;}
   font-size: 12pt;}
 
   .mobile{ 
-  height: 200px;
+  height: 220px;
   width: 395px;
   border: solid #5429CF;
   border-top: 1px solid rgb(3, 192, 250);
@@ -567,3 +570,17 @@ div#SobreMim{
   margin-left: 10%;}
 .TituloCursos{
   margin-left: 10%;}}
+
+  @media(max-width:1366px){
+  #bt_menu{
+    display: none;
+  }
+  }
+
+
+/* Iphone 5*/
+@media(max-width:568px) {
+  .menu{
+    height:100%
+  }
+}
