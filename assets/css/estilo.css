@@ -335,7 +335,7 @@ color: black;}
 
 
 
-/******************************************Course Session******************************************/
+/****************************************** sessão de cursos *****************************************/
 .cursos{
   font-family: 'Source Code Pro', monospace;
   color: white;
@@ -344,6 +344,7 @@ color: black;}
   margin-bottom: 2%;}
 
 .TituloCursos{
+  color: black;
   margin-right: 45%;
   margin-bottom: 1%;}
 
@@ -372,38 +373,44 @@ color: black;}
   display: inline-block;}
   
 .curso04{
-height: 320px;
-width: 385px;
-background-color: #202020;
-margin-top: 1%;
-display: inline-block;}
+  height: 320px;
+  width: 385px;
+  background-color: #202020;
+  margin-top: 1%;
+  display: inline-block;}
+
 .curso05{
-height: 320px;
-width: 385px;
-background-color: #202020;
-margin-top: 1%;
-display: inline-block;}
+  height: 320px;
+  width: 385px;
+  background-color: #202020;
+  margin-top: 1%;
+  display: inline-block;}
+
 .curso06{
-height: 320px;
-width: 385px;
-background-color: #202020;
-margin-top: 1%;
-display: inline-block;}
+  height: 320px;
+  width: 385px;
+  background-color: #202020;
+  margin-top: 1%;
+  display: inline-block;}
 
 .TituloCurso1{
   margin-left: 7%;
   padding-top:  5%;
   font-size: 20pt;}
+
 .TxtCurso1{
   margin-left: 4%;
   margin: 5%;
   font-size: 12pt;}
+
 .TxtCurso2{
   margin-left: 4%;
   margin: 5%;
   font-size: 12pt;}
+
 .progresso{
   margin-left: 4%;}
+
 .barra01 {
   margin-left: 4%;
   color:#a6d44f;
@@ -411,27 +418,33 @@ display: inline-block;}
   width: 25%;
   height: 2%;
   display: inline-block;}
+
 .barra1{
-margin-left: 4%;
-color: #5429CF;
-background-color: #5429CF;
-width: 25%;
-height: 2%;
-display: flex;}
+  float: bottom;
+  margin-left: 4%;
+  color: #5429CF;
+  background-color: #5429CF;
+  width: 25%;
+  height: 2%;
+  display:inline;
+  display: flex;}
+
 .barra02 {
-margin-left: 4%;
-color:#a6d44f;
-background-color: #a6d44f;
-width: 12%;
-height:2%;
-display: inline-block;}
+  margin-left: 4%;
+  color:#a6d44f;
+  background-color: #a6d44f;
+  width: 12%;
+  height:2%;
+  display: inline-block;}
+
 .barra03 {
-margin-left: 4%;
-color:#a6d44f;
-background-color: #a6d44f;
-width: 15%;
-height:2%;
-display: inline-block;}
+  margin-left: 4%;
+  color:#a6d44f;
+  background-color: #a6d44f;
+  width: 15%;
+  height:2%;
+  display: inline-block;}
+
 .barra04 {
   margin-left: 4%;
   color:#a6d44f;
@@ -439,13 +452,15 @@ display: inline-block;}
   width: 12%;
   height:2%;
   display: inline-block;}
+
 .barra05 {
-margin-left: 4%;
-color:#a6d44f;
-background-color: #a6d44f;
-width:20%;
-height:2%;
-display: inline-block;}
+  margin-left: 4%;
+  color:#a6d44f;
+  background-color: #a6d44f;
+  width:20%;
+  height:2%;
+  display: inline-block;}
+
 .barra06 {
   margin-left: 4%;
   color:#a6d44f;
@@ -463,14 +478,19 @@ display: inline-block;}
   font-size: 14pt;
   display: inline-block;
   border-radius: 10px;}
+
 .curso_1-roxo{
   background: #5429CF;
   transition: background 1s;
   box-shadow: 0 1px 0 #350ea0 ;}
+
 .curso_1-roxo:hover {
   background: #a6d44f;
   color: black;
   box-shadow: 0 3px 0 #350ea0 ;}
+
+/****************************************** sessão de cursos *****************************************/
+
 .vermais{
   background: #302f2f;
   color:#fff;
@@ -480,6 +500,7 @@ display: inline-block;}
   padding: 10px;
   border: none;
   border-radius:100px}
+
 #back-to-top{
   position:fixed;
   right: 50px;
