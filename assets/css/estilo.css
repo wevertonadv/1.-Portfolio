@@ -199,7 +199,7 @@ color: black;}
 
 
 
-  /* Aba de projetos */
+/*********************************** sessão de projetos *********************************/
 #Projetos {
   font-family: 'Source Code Pro', monospace;
   color: white;
@@ -268,8 +268,7 @@ color: black;}
   border: solid #5429CF;
   border-top: 1px solid rgb(3, 192, 250);
   background-color: #202020;
-  display: inline-block;
-  margin: 0 auto;}
+  display: inline-block;}
 .construcao_0{
   margin-left: 2%;
   padding-top:  2%;
@@ -292,7 +291,6 @@ color: black;}
   width: 395px;
   border: solid #5429CF;
   border-top: 1px solid rgb(3, 192, 250);
-  width: 395px;
   background-color: #202020;
   display: inline-block;}
 .mobile_0{
@@ -619,6 +617,12 @@ div#SobreMim{
     height:100%  }
 
   #apresentacao{
-    margin-top:-50px;
+    margin-top:-50px;}
+  
+  .center{
+    margin-top: 10px;}
+
+  .right{
+    margin-bottom: 10px;
+    margin-top: 10px;}
   }
-}
