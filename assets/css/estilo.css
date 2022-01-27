@@ -27,7 +27,7 @@ a {
   text-decoration: none; }
 
 
-/*Estilizando a nav da classe menu */
+/************************************** menu **************************************/
 .menu {
   width: 100%;
   height: 50px;
@@ -98,7 +98,7 @@ a {
  
  label[for=”bt_menu”]{
   display: none;
-  }
+}
  
  /*Deixando o Menu Responsivo */
  @media(max-width: 800px) {
@@ -132,22 +132,19 @@ a {
   height: auto;
   max-height: 200px;
   }
-   
-  }
+}
 
+/************************************** Titulos **************************************/ 
 
-
-
-
- 
-  
 h3 {
   color: #Fff;}  
+
 h1,h4 {
 font-family: helvetica,Arial;
 color: black;} 
 
 
+/************************************** Apresentação **************************************/ 
 
 #apresentacao {
   padding: 15%;
@@ -155,10 +152,12 @@ color: black;}
   margin-bottom: 1%;
   font-family: 'Press Start 2P',cursive;  
   color: white; }
+
 #apresentacao2{
   font-family: 'Source Code Pro', monospace;
   color: #a6d44f;
   color-interpolation-filters: sRGB;}
+
 #apresentacao3{
   text-align: center;
   font-size: 14pt;
@@ -170,17 +169,21 @@ color: black;}
   width: 120px;
   height: 50px;
   padding-top: 15px;}
+
 #apresentacao3:hover{
   transition: background 1s;
   background-color: #a6d44f;}
 
 
+/************************************** Sobre Mim **************************************/ 
 
 #TituloSobreMim {
   margin-left: 43%;
   margin-bottom: 2%;}
+
 #TituloSobreMim:hover{
   color: #a6d44f;}
+
 #SobreMim {
   font-family: 'Source Code Pro', monospace;
   background-color: #000000;
@@ -190,10 +193,12 @@ color: black;}
   margin-bottom: 2%;
   color: white;
   display: inline-block }
+
 #TxtSobreMim {
   margin-top: 3%;
   margin-left: 10%;
   margin-right: 10%;}
+
 .container{
   display: flex;}
 
@@ -207,10 +212,12 @@ color: black;}
   width:100%;
   margin-top: 2%;
   margin-bottom: 2%;}
+
 #TituloProjetos {
   color: black;
   margin-right: 50%;
   margin-bottom: 5%;}
+
 #TituloProjetos:hover{
   color: #a6d44f;}
 
@@ -238,11 +245,11 @@ color: black;}
   margin: 4%;
   font-size: 12pt;}
 #warc19_2{
-    display: inline-block;
-    margin-left: 0%;
-    padding-top:  0%;
-    margin: 5%;
-    font-size: 12pt;}
+  display: inline-block;
+  margin-left: 0%;
+  padding-top:  0%;
+  margin: 5%;
+  font-size: 12pt;}
 .warc19_3{
   display:inline;
   color: white;
@@ -285,7 +292,7 @@ color: black;}
   margin: 5%;
   font-size: 12pt;}
 
-  .right{ 
+.right{ 
   float: right;
   height: 220px;
   width: 395px;
@@ -310,6 +317,7 @@ color: black;}
   font-size: 12pt;}
 
 
+/*********************************** sessão de Serviços *********************************/
 
 #Servicos{
   font-family: 'Source Code Pro', monospace;
@@ -487,7 +495,7 @@ color: black;}
   color: black;
   box-shadow: 0 3px 0 #350ea0 ;}
 
-/****************************************** sessão de cursos *****************************************/
+/****************************************** sessão de  *****************************************/
 
 .vermais{
   background: #302f2f;
