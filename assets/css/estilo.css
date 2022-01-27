@@ -582,14 +582,15 @@ div#SobreMim{
   color: #0D95BE;
   size: cover;
   display: inline-block;}
+  
 #TxtSobreMim{
   width: 50%;}
+
 #TituloSobreMim{
   color:pink;
-  margin-top:10%;
-}
-  .container{
+  margin-top:10%;}
 
+.container{
   width: 100%;}
 }
 
@@ -597,17 +598,20 @@ div#SobreMim{
 @media(max-width:568px) { /*1° TELA*/
 #TituloSobreMim{
   margin-left: 10%;}
+
 #TituloProjetos{
   margin-left: 10%;}
+
 #TituloServicos{
   margin-left: 10%;}
+
 .TituloCursos{
-  margin-left: 10%;}}
+  margin-left: 10%;}
+}
 
   @media(max-width:1366px){
   #bt_menu{
-    display: none;
-  }
+    display: none;}
   }
 
 
