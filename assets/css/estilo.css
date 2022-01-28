@@ -13,14 +13,7 @@ body {
   /*background-color: #ffffff;*/ }
   
 #weverton{
-  color: black;
-}
-
-
-marquee{ color: #fff;
-  font-size: 52pt}
-
-
+  color: black;}
 
 a {
   color: white;
@@ -144,7 +137,7 @@ font-family: helvetica,Arial;
 color: black;} 
 
 
-/************************************** Apresentação **************************************/ 
+/************************************** Sobre Mim **************************************/ 
 
 #apresentacao {
   padding: 15%;
