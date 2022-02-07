@@ -7,13 +7,12 @@ padding: 0;
 margin: 0; } 
 
 body { 
+  background-color: #121759;
   width: 100%;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif; 
   /*background-color: #ffffff;*/ }
   
-#weverton{
-  color: black;}
 
 a {
   color: white;
@@ -27,6 +26,9 @@ p{
 }
 
 /************************************** menu **************************************/
+nav{
+  box-shadow: 2px 2px 15px #141525; /*Sombreamento*/
+}
 .menu {
   width: 100%;
   height: 50px;
@@ -145,14 +147,29 @@ color: black;}
 
 /************************************** Apresentação **************************************/ 
 
-#apresentacao {
-  padding: 15%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+.apresentacao {
+  display:inline-block;
+  padding: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
   font-family: 'Press Start 2P',cursive;  
   color: white; }
 
-#apresentacao2{
+#weverton{
+  display:inline-block;
+  color: rgb(252, 252, 252);}
+
+#imgapresentacao{
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+  
+
+#txtapresentacao1{
+  font-weight: bold;
+  display: inline-block;
   font-family: 'Source Code Pro', monospace;
   color: #a6d44f;
   color-interpolation-filters: sRGB;}
@@ -213,7 +230,7 @@ color: black;}
   margin-bottom: 2%;}
 
 #TituloProjetos {
-  color: black;
+  color: #FFF;
   margin-right: 50%;
   margin-bottom: 5%;}
 
@@ -349,7 +366,7 @@ color: black;}
   margin-bottom: 2%;}
 
 .TituloCursos{
-  color: black;
+  color: #FFF;
   margin-right: 45%;
   margin-bottom: 1%;}
 
