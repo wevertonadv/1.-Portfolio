@@ -6,15 +6,25 @@
 padding: 0; 
 margin: 0; } 
 
+:root {
+  --corfundo: #121759;
+}
+
 body { 
   background-image: url(/imagens/fundoapresentacao-2.png);
-
-  background-color: #121759;
+  background-color:var(--corfundo);
   width: 100%;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif; 
   /*background-color: #ffffff;*/ }
   
+main{
+  background-color:rgba(111, 210, 30, 0);
+  border-radius: 10px;
+  max-width: 1500px;
+  min-width: 320px;
+  margin: auto;
+}
 
 a {
   color: white;
@@ -26,6 +36,15 @@ p{
   /*text-indent: 20px;*/
   text-align: justify;
 }
+
+h3 {
+  color: #Fff;
+}  
+
+h1, h4 {
+font-family: helvetica,Arial;
+color: black;
+} 
 
 /************************************** menu **************************************/
 nav{
@@ -70,6 +89,7 @@ nav{
  .menu a:hover {
   background-color: #f4f4f4;
   color: #555;
+  transition-duration: .6s;
   }
  
  .menu ul ul li {
@@ -137,46 +157,41 @@ nav{
   }
 }
 
-/************************************** Titulos **************************************/ 
-
-h3 {
-  color: #Fff;}  
-
-h1,h4 {
-font-family: helvetica,Arial;
-color: black;} 
 
 
 /************************************** Apresentação **************************************/ 
 
-.apresentacao {
+.apresentacao_esquerda {
   display:inline-block;
-  padding: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
+  margin-bottom: 0px;
+  margin-left: 200px;
+  margin-top: 200px;
   font-family: 'Press Start 2P',cursive;  
   color: white; }
 
+.apresentacao_direita{
+  display: inline-block;
+  margin-left: 195px;
+}
 
+#imgapresentacao{
+  display: inline-block;
+  margin-bottom: 200px;
+  width: 300px;
+  }
+    
+  
 
 #weverton{
   display:inline-block;
-  color: rgb(252, 252, 252);}
-
-#imgapresentacao{
-  width: 500px;
-  height: 500px;
-  display: inline-block;
+  color: rgb(252, 252, 252);
 }
-  
 
 #txtapresentacao1{
   font-weight: bold;
   display: inline-block;
   font-family: 'Source Code Pro', monospace;
-  color: #a6d44f;
-  color-interpolation-filters: sRGB;}
+  color: #a6d44f;}
 
 #apresentacao3{
   text-align: center;
@@ -209,9 +224,10 @@ color: black;}
   color: #a6d44f;}
 
 #SobreMim {
-  font-family: 'Source Code Pro', monospace;
+  margin:0px;
+  font-family: 'Arial', 'Source Code Pro', monospace;
   background-color: #850f7b;
-  padding: 6%;
+  padding: 50px 20px;
   margin-top: 2%;
   width: 100%;
   margin-bottom: 2%;
@@ -219,6 +235,7 @@ color: black;}
   display: inline-block }
 
 #TxtSobreMim {
+  text-justify: center;
   margin-top: 3%;
   margin-left: 10%;
   margin-right: 10%;}
@@ -232,7 +249,7 @@ color: black;}
 #Projetos {
   font-family: 'Source Code Pro', monospace;
   color: white;
-  padding: 5%;
+  padding: 3%;
   width:100%;
   margin-top: 2%;
   margin-bottom: 2%;}
@@ -344,13 +361,13 @@ color: black;}
 /*********************************** sessão de Serviços *********************************/
 
 #Servicos{
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Arial', 'Source Code Pro', monospace;
   color: white;
   width: 100%;
   display: inline-block;
   padding: 6%;
-  padding-bottom: 10%;
-  padding-top: 10%;
+  padding-bottom: 8%;
+  padding-top: 8%;
   background-color: #202020;}
 #TituloServicos{
   margin-top: 2%;
@@ -369,7 +386,7 @@ color: black;}
 .cursos{
   font-family: 'Source Code Pro', monospace;
   color: white;
-  padding: 5%;
+  padding: 0% 0% 0% 6.5%;
   margin-top: 2%;
   margin-bottom: 2%;}
 
@@ -550,6 +567,7 @@ color: black;}
   padding:50px;}
 
 .RODAPE { 
+  background-image: linear-gradient(to bottom, #121759, #0D95BE);
   position: absolute; /* POSIÇÃO DO RODAPE */	
   font-size: 15px; 	
   width: 100%;
@@ -571,7 +589,6 @@ color: black;}
   
 }
 
-@media(max-width: 800px) {
 .container {
  width: 100%;  }
 .ieuaqui{
@@ -647,18 +664,107 @@ div#SobreMim{
   }
 
 
-/* Iphone 5*/
-@media(max-width:568px) {
-  .menu{
-    height:100%  }
 
-  #apresentacao{
-    margin-top:-50px;}
-  
+
+
+
+/*RESPONSIVIDADE*/
+
+@media(max-width:1280px){
+  #left{
+    width: 50%;}
+
   .center{
-    margin-top: 10px;}
+    width: 50%;
+  }
 
   .right{
-    margin-bottom: 10px;
-    margin-top: 10px;}
+    width: 99%;}
+
+  .cursos{
+    padding:0%;
+    margin-left: 10px;
   }
+}
+
+@media(max-width:1200px){
+
+  .curso01{
+    width:99%;
+  }
+  .curso02{
+    width:99%;
+  }
+  .curso03{
+    width:99%;
+  }
+  .curso04{
+    width:99%;
+  }
+  .curso05{
+    width:99%;
+  }
+  .curso06{
+    width:99%;
+  }
+}
+
+@media(max-width:1070px) {
+  .apresentacao_direita{
+    display: none;}
+
+  .apresentacao_esquerda {
+    display:block;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-family: 'Press Start 2P',cursive; 
+    align: center; 
+    color: white; }
+
+  #apresentacao3{
+    align: center;}
+
+}
+
+
+
+@media(max-width:800px){
+  #left{
+    width: 100%; }
+
+  .right{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%; }
+
+  .center{
+    margin-top: 8px;
+    width: 100%; }
+
+  .cursos{
+    padding:0%;
+    margin-left: 10px;
+  }
+
+  .curso01{
+    width: 99%;}
+
+  .curso02{
+    width: 99%;}
+  
+  .curso03{
+    width: 99%;}
+
+  .curso04{
+    width: 99%;}
+
+  .curso05{
+    width: 99%;}
+
+  .curso06{
+  width: 99%;}
+
+
+
+}
