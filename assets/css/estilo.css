@@ -32,9 +32,11 @@ a {
 }
 
 
-p{
+main p{
   /*text-indent: 20px;*/
   text-align: justify;
+  font-size:1em;
+  line-height: 1.5em;
 }
 
 h3 {
@@ -46,7 +48,7 @@ font-family: helvetica,Arial;
 color: black;
 } 
 
-/************************************** menu **************************************/
+/*** menu ***/
 nav{
   box-shadow: 2px 2px 15px #141525; /*Sombreamento*/
 }
@@ -159,7 +161,11 @@ nav{
 
 
 
-/************************************** Apresentação **************************************/ 
+/*** Apresentação ***/ 
+
+.apresentacao{
+  /*background-color: #350ea0;*/
+}
 
 .apresentacao_esquerda {
   display:inline-block;
@@ -168,6 +174,7 @@ nav{
   margin-top: 200px;
   font-family: 'Press Start 2P',cursive;  
   color: white; }
+
 
 .apresentacao_direita{
   display: inline-block;
@@ -195,16 +202,17 @@ nav{
 
 #apresentacao3{
   text-align: center;
+  display:inline;
+  padding: 10px;
+  padding-top: 15px;
   font-size: 14pt;
   border-radius: 5%;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 25px;
-  margin-left: 13%;
+  margin-left: 0%;
+  background-image: linear-gradient(to bottom, #5429CF, #121759);
   background-color: #5429CF;
-  box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.404);
-  width: 120px;
-  height: 50px;
-  padding-top: 15px;}
+  box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.404);}
 
 #apresentacao3:hover{
   transition: background 1s;
@@ -226,6 +234,7 @@ nav{
 #SobreMim {
   margin:0px;
   font-family: 'Arial', 'Source Code Pro', monospace;
+  background-image: linear-gradient(to top, #121759, #0D95BE);
   background-color: #850f7b;
   padding: 50px 20px;
   margin-top: 2%;
@@ -235,7 +244,9 @@ nav{
   display: inline-block }
 
 #TxtSobreMim {
+  width: 50%;
   text-justify: center;
+  float: left;
   margin-top: 3%;
   margin-left: 10%;
   margin-right: 10%;}
@@ -354,11 +365,11 @@ nav{
   display:inline-block;
   margin-left: 0%;
   padding-top: 0%;
-  margin: 5%;
+  margin: 0%;
   font-size: 12pt;}
 
 
-/*********************************** sessão de Serviços *********************************/
+/*** sessão de Serviços ***/
 
 #Servicos{
   font-family: 'Arial', 'Source Code Pro', monospace;
@@ -368,6 +379,7 @@ nav{
   padding: 6%;
   padding-bottom: 8%;
   padding-top: 8%;
+  background-image: linear-gradient(to top, #121759, #0D95BE);
   background-color: #202020;}
 #TituloServicos{
   margin-top: 2%;
@@ -591,8 +603,7 @@ nav{
 
 .container {
  width: 100%;  }
-.ieuaqui{
-  display: none;}
+
 .TxtSobreMim {
   width: 100%;}
 #projetos{
@@ -600,11 +611,10 @@ nav{
 .construcao{
   margin-top: 2%;
   margin-bottom: 2%;}
-#imgservicos{
-  display: none;}
 #Servicos{
   size: cover;
-  width: cover;}}
+  width: cover;}
+
 
 @media (max-width:1024px){
 #TituloSobreMim{
@@ -672,14 +682,19 @@ div#SobreMim{
 
 @media(max-width:1280px){
   #left{
-    width: 50%;}
+    margin:1px;
+    width: 49%;}
 
   .center{
-    width: 50%;
+    margin: 1px;
+    width: 49%;
   }
 
   .right{
-    width: 99%;}
+   width:100%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin: 2%, 10, 50px, 0px;}
 
   .cursos{
     padding:0%;
@@ -709,17 +724,17 @@ div#SobreMim{
   }
 }
 
-@media(max-width:1070px) {
+@media(max-width:1071px) {
   .apresentacao_direita{
     display: none;}
 
   .apresentacao_esquerda {
-    display:block;
+    display:inline-block;
     margin-bottom: 100px;
     margin-left: 200px;
     margin-top: 100px;
     font-family: 'Press Start 2P',cursive; 
-    align: center; 
+    align: center;
     color: white; }
 
   #apresentacao3{
@@ -730,6 +745,14 @@ div#SobreMim{
 
 
 @media(max-width:800px){
+
+  .apresentacao_esquerda{
+    text-align: center;
+    margin:auto;
+    display:block;}
+
+  
+
   #left{
     width: 100%; }
 
