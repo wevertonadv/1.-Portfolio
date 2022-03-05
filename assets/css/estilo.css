@@ -233,8 +233,8 @@ nav{
 #SobreMim {
   margin:0px;
   font-family: 'Arial', 'Source Code Pro', monospace;
-  background-image: linear-gradient(to top, #121759, #0D95BE);
-  background-color: #850f7b;
+  background-image: linear-gradient(to top, #121759, #12175962);
+  background-color: #331259;
   padding: 50px 20px;
   margin-top: 2%;
   width: 100%;
@@ -381,8 +381,8 @@ nav{
   padding: 6%;
   padding-bottom: 8%;
   padding-top: 8%;
-  background-image: linear-gradient(to top, #0D95BE, #121759);
-  background-color: #202020;}
+  background-image: linear-gradient(to top, #121759, #12175962);
+  background-color: #331259;}
 #TituloServicos{
   margin-top: 2%;
   margin-bottom: 2%;
@@ -654,26 +654,7 @@ div#SobreMim{
 }
 
 
-@media(max-width:568px) { /*1° TELA*/
 
-  #TituloSobreMim{
-    text-align: center
-  }
-
-#TituloProjetos{
-  margin-left: 10%;}
-
-#TituloServicos{
-  margin-left: 10%;}
-
-.TituloCursos{
-  margin-left: 10%;}
-}
-
-  @media(max-width:1366px){
-  #bt_menu{
-    display: none;}
-  }
 
 
 
@@ -854,6 +835,31 @@ div#SobreMim{
   .curso06{
   width: 99%;}
 
-
-
 }
+
+@media(max-width:568px) { /*1° TELA*/
+
+  .apresentacao_esquerda {
+    margin-top: 20%;
+    margin-bottom:20%;}
+
+
+  #TituloSobreMim{
+    text-align: center }
+
+#TituloProjetos{
+  margin-left: 10%;}
+
+#TituloServicos{
+  margin-left: 10%;}
+
+.TituloCursos{
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-top: 10%;}
+}
+
+  @media(max-width:1366px){
+  #bt_menu{
+    display: none;}
+  }
