@@ -11,7 +11,7 @@ margin: 0; }
 }
 
 body { 
-  background-image: url(/imagens/fundoapresentacao-2.png);
+  /*background-image: url(/imagens/fundoapresentacao-2.png);*/
   background-color:var(--corfundo);
   width: 100%;
   height: 100%;
@@ -31,6 +31,70 @@ a {
   text-decoration: none; 
 }
 
+/*MENU*/
+
+.nav-button {
+  border:0;
+  border-radius:5px;
+  padding:2px;
+  background-color:#00000080;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.nav-button i {
+  color: rgb(255, 255, 255);
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  /*background-color: rgb(0,0,0);*/
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.overlay-content{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top:30px
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  color: #818181;
+  display:block;
+  font-size:34px;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 25px;
+  right:45px;
+  font-size:60px;
+}
+
+@media screen (max-height: 450px) {
+  .overlay a { font-size:20px}
+  .overlay, .closebtn{
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
 
 main p{
   /*text-indent: 20px;*/
@@ -48,116 +112,6 @@ font-family: helvetica,Arial;
 color: black;
 } 
 
-/*** menu ***/
-nav{
-  box-shadow: 2px 2px 15px #141525; /*Sombreamento*/
-}
-.menu {
-  width: 100%;
-  height: 50px;
-  background-color: #202020;
-  font-family: Arial;
-  }
- 
- /*Estilizando as listas */
-  .menu ul {
-  list-style: none;
-  position: relative;
-  }
- 
- .menu ul li {
-  width: 150px;
-  float: left;
-  }
- 
- .menu a {
-  padding: 13px;
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  background-color: #202020;
-  color: #fff;
-  }
- 
- .menu ul ul {
-  position: absolute;
-  visibility: hidden;
-  }
- 
- .menu ul li:hover ul {
-  visibility: visible;
-  }
- 
- .menu a:hover {
-  background-color: #f4f4f4;
-  color: #555;
-  transition-duration: .6s;
-  }
- 
- .menu ul ul li {
-  float: none;
-  border-bottom: solid 1px #ccc;
-  }
- 
- .menu ul ul li a {
-  background-color: #069;
-  }
- 
- /*Criando o label */
-  label[for=”bt_menu”]{
-  padding: 5px;
-  background-color: #222;
-  color: #fff;
-  font-family: Arial;
-  text-align: center;
-  font-size: 30px;
-  cursor: pointer;
-  height: 50px;
-  display: none;
-  }
- 
- #bt_menu {
-  display: none;
-  
-  }
- 
- label[for=”bt_menu”]{
-  display: none;
-}
- 
- /*Deixando o Menu Responsivo */
- @media(max-width: 800px) {
- label[for=”bt_menu”] {
-  display: block;
-  }
-   
- #bt_menu:checked ~ .menu{
-  margin-left: 0;
-  }
-   
- .menu{
-  margin-top: 5px;
-  margin-left: -100%;
-  transition: all .4s;
-  }
-   
- .menu ul li {
-  width: 100%;
-  float: none;
-  }
-   
- .menu ul ul {
-  position: static;
-  overflow: hidden;
-  max-height: 0;
-  transition: all 4s;
-  }
-   
- .menu ul li:hover ul {
-  height: auto;
-  max-height: 200px;
-  }
-}
 
 
 
@@ -397,7 +351,7 @@ nav{
 
 
 /****************************************** sessão de cursos *****************************************/
-.cursos{
+#cursos{
   font-family: 'Source Code Pro', monospace;
   color: white;
   padding: 0% 0% 0% 6.5%;
@@ -640,6 +594,10 @@ nav{
     text-align: center
   }
 
+  #TituloServicos{
+    text-align:center;
+  }
+
 div#SobreMim{
   display: inline-block;
   padding-right: cover;
@@ -701,6 +659,10 @@ div#SobreMim{
     text-align: center
   }
 
+  #TituloServicos{
+    text-align:center;
+  }
+
   #left{
     margin:1px;
     width: 49%;}
@@ -716,7 +678,7 @@ div#SobreMim{
    margin-bottom: 30px;
    margin: 2%, 10, 50px, 0px;}
 
-  .cursos{
+  #cursos{
     padding:0%;
     margin-left: 10px;
   }
@@ -726,6 +688,10 @@ div#SobreMim{
 
   #TituloSobreMim{
     text-align: center }
+
+  #TituloServicos{
+    text-align:center;
+    }
 
   #TxtSobreMim{
     width: 100%;
@@ -762,6 +728,10 @@ div#SobreMim{
     text-align: center
   }
 
+  #TituloServicos{
+    text-align:center;
+  }
+
   #TxtSobreMim {
     width:100%;
   }
@@ -789,6 +759,11 @@ div#SobreMim{
   #TituloSobreMim{
     text-align: center
   }
+
+  #TituloServicos{
+    text-align:center;
+  }
+
   #TxtSobreMim {
     width: 100%;
   }
@@ -812,7 +787,7 @@ div#SobreMim{
     margin-top: 8px;
     width: 100%; }
 
-  .cursos{
+  #cursos{
     padding:0%;
     margin-left: 10px;
   }
@@ -847,6 +822,10 @@ div#SobreMim{
   #TituloSobreMim{
     text-align: center }
 
+  #TituloServicos{
+    text-align:center;
+    }
+
 #TituloProjetos{
   margin-left: 10%;}
 
@@ -859,7 +838,3 @@ div#SobreMim{
   margin-top: 10%;}
 }
 
-  @media(max-width:1366px){
-  #bt_menu{
-    display: none;}
-  }

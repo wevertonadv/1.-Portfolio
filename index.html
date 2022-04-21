@@ -6,41 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start Smart</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="assets/css/estilo.css"> 
     <link rel="shortcut icon" href="imagens/icone2.ico" type="image/x-icon">
-    <script src="script.js"></script>   
+    <script type="text/javascript" src="assets/js/script.js"></script>   
 </head>
 <body>
-    
+<span id="topo" ></span>
 <!--MENU-->
-<section>
 
-    <input type="checkbox" id="bt_menu" />
-    <label for="bt_menu">&#9776;</label>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times; </a>
 
-    <nav class="menu">   
-        <ul>
-            <li><a href="#Portfolio">Portfólio</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Serviços</a>
-                <ul>
-                    <li><a href="#">Criação de Sites</a></li>
-                    <li><a href="#">Arte Visual</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Conteudo</a>
-                <ul>
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">XML</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
+        <div class="overlay-content">
+            <a href="#topo">Home</a></li>
+            <a href="#SobreMim"> SobreMim</a></li>
+            <a href="#Servicos">Serviços</a> </li>
+            <a href="#cursos">Cursos</a> </li>
+        </div>
+    </div>
+
+    <button class="nav-button" onclick="openNav()" >
+        <i class="fa-solid fa-bars fa-2x" ></i>
+    </button>
+
+    
+
+  
+
+
 
 </section>
-
 
 <main>
      
@@ -73,7 +71,7 @@
 
     <img class="imgsobremim" src="imagens/euaqui.png" alt="Personagem de TI">
      <p 
-    id="TxtSobreMim">Olá, me chamo Weverton, tenho 20 anos de idade sou do Rio de Janeiro, Duque de Caxias. Curso análise e desenvolvimento de sistema na universade unigranrio, estou no Quinto período, sou um jovem extremamente apaixonado por tecnologia e aprendizado constante.. <br><br>
+    id="TxtSobreMim">Olá, me chamo Weverton, tenho 21 anos de idade sou do Rio de Janeiro, Duque de Caxias. Curso análise e desenvolvimento de sistema na universade unigranrio, estou no Quinto período, sou um jovem extremamente apaixonado por tecnologia e aprendizado constante.. <br><br>
   
     Tenho facilidade em assimilar tarefas e disposto a vivenciar novos desafios e experiências, em busca de uma oportunidade em que eu possa contribuir para o crescimento da empresa e para o meu desenvolvimento pessoal e profissional.  <br> <br>
 
@@ -132,7 +130,7 @@
 </section>
 
 
-<section class="cursos">
+<section id="cursos">
     <h2 class="TituloCursos">Cursos</h2>
 
 <div class="curso01">
@@ -207,7 +205,7 @@
 </footer> 
 
 
-<button id="back-to-top"><a href="#Portfolio">TOPO</a></button>
+<button id="back-to-top"><a href="#topo">TOPO</a></button>
 
 </body>
 </html>
