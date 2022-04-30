@@ -1,0 +1,14 @@
+
+body{
+    background-color: #fff;
+}
+
+
+
+#imgportfoliop{
+    margin: 4% 4%;
+    align:  center;
+    border: 8px solid rgb(11, 59, 55);
+    width:  500px;
+    height: 250px;
+}

@@ -47,7 +47,7 @@ a {
 }
 
 .overlay {
-  width: 100%;
+  width:0%;
   height: 100%;
   /*background-color: rgb(0,0,0);*/
   background-color: rgba(0, 0, 0, 0.9);
@@ -324,7 +324,21 @@ color: black;
   margin: 0%;
   font-size: 12pt;}
 
+#vermaisp{
+  margin-top: 50px;
+  padding: 10px;
+  border-top: 2px solid #0E6E9B;
+  background-color: #4525B5;
+  border-radius: 8%;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  transition:  1s;
+}
 
+#vermaisp:hover{
+  background-color:#A6D44F;
+}
 /*** sessão de Serviços ***/
 
 #Servicos{
@@ -837,4 +851,9 @@ div#SobreMim{
   margin-bottom: 10%;
   margin-top: 10%;}
 }
+
+
+
+
+/* Pagina de Projetos */
 
