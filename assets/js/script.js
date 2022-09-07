@@ -2,7 +2,7 @@
 //confirm("Quer continuar na pagina?") /* confirmação*/
 //prompt("Qual é seu nome?") //perguntando o Nome
 
-
+console.logw
 function openNav(){
     document.getElementById("myNav").style.width = "100%";
 }

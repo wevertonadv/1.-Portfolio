@@ -1,14 +1,69 @@
-
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 body{
-    background-color: #fff;
+    color: #000;
+    background-color: #F3F3F3;
+    font-family:  "courier", "roboto", Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: "Roboto";
+    line-height:15px;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
 }
 
 
+.container-1{
+    display:flex;
+    margin: 2rem 0;
+}
 
-#imgportfoliop{
-    margin: 4% 4%;
-    align:  center;
-    border: 8px solid rgb(11, 59, 55);
-    width:  500px;
-    height: 250px;
+
+.container-img-1{
+    width: 50%;
+    display:flex;
+}
+.container-img-1 img{
+    width: 360px;
+}
+
+
+.container-texto-1{
+    width: 50%;
+    text-align:justify;
+}
+
+
+.container-2{
+    display:flex;
+    margin: 2rem 0;
+}
+
+
+.container-img-2{
+    width: 50%;
+    display:flex;
+    justify-content: flex-end;     
+}
+.container-img-2 img{
+    width: 360px;
+}
+.container-img-2 iframe{
+    width: 400px;
+    height: 200px;
+}
+
+
+.container-texto-2{
+    width: 50%;
+    text-align: justify;
 }
